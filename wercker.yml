@@ -4,5 +4,4 @@ build:
   steps:
     - arjen/hugo-build:
         version: "HEAD"
-	theme: vienna
-
+        theme: vienna
