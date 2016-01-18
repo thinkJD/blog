@@ -23,5 +23,13 @@
         <!-- Email -->
         <li class="navigation__item">
             <a href="mailto:{{ .Site.Params.email }}" title="Email {{ .Site.Params.email }}"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
-        </li> {{ end }} </ul>
+        </li> {{ end }}  {{ if .Site.Params.strava_id }}
+		<!-- Strava -->
+		<li class="navigation__item">
+            <a href="https://www.strava.com/athletes/{{ .Site.Params.strava_id }}" title="Strava"> <i class='fa fa-bicycle'></i> <span class="label">Strava</span> </a>
+        </li> {{ end }}  {{ if .Site.Params.reddit }}
+		<!-- Reddit -->
+		<li class="navigation__item">
+            <a href="https://www.reddit.com/user/{{ .Site.Params.reddit }}" title="Reddit {{ .Site.Params.email }}"> <i class='fa fa-reddit'></i> <span class="label">Reddit</span> </a>
+        </li> {{ end }} </ul>		
 </nav>

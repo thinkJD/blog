@@ -1,3 +1,24 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "de"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://thinkjd.de/"
+canonifyurls = true
+title = "thinkJDs Blog 2.0"
+author = "thinkJD"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+
+[indexes]
+   category = "categories"
+   tag = "tags"
+[Params]
+  AuthorName = "thinkJD"
+  github = "thinkJD"
+  twitter = "thinkJD"
+  email = "thinkjd@thinkjd.de"
+  reddit = "thinkJD"
+  strava_id = "8772305"
+  description = "Der tägliche kampf mit dem Verkehr und was mich sonst so interessiert."
+  logo = "/media/img/megavolt.png"
+  cover = "/media/img/me.png"
