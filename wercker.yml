@@ -1,7 +1,30 @@
-box: debian
+box: ubuntu
 build:
   steps:
     - arjen/hugo-build:
         version: "0.14"
-        theme: vienna
+        theme: hugo-uno
         flags: --buildDrafts=true
+    - script:
+        name: copy output
+        code: |-
+          cp -a "public/." "$WERCKER_OUTPUT_DIR"
+deploy:
+  steps:
+   - mktemp:
+      envvar: PRIVATEKEY_PATH
+   - create-file:
+      name: write key
+      filename: $PRIVATEKEY_PATH
+      content: $SSH_KEY_PRIVATE
+      overwrite: true
+      hide-from-log: true
+   - install-packages:
+      packages: openssh-client
+   - script:
+      name: transfer application
+      code: |
+        pwd
+        ls -la
+        scp -Cr -i $PRIVATEKEY_PATH -o StrictHostKeyChecking=no -o UserKnownHostsFile=no * thinkjd_deploy@thinkjd.de:/var/www/blog.thinkjd.de
+ 
