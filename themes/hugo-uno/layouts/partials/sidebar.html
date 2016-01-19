@@ -29,7 +29,11 @@
                             <li class="navigation__item"><a href="{{ .Site.BaseURL }}#blog" title="link to {{ .Site.Title }} blog" class="blog-button">Blog</a> </li>
                             </br> {{ if .Site.Params.cv }}
                             <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my CV " class="blog-button">CV</a> </li>
-                            </br> {{ end }} </ul>
+                            </br> {{ end }}
+                            {{ if .Site.Params.bikelog }}
+                            <li class="navigation__item"><a href="{{ .Site.Params.bikelog  }}" title="link to my bike log " class="blog-button">bike log</a> </li>
+                            </br> {{ end }} 
+                        </ul>
                     </nav> {{ partial "social.html" . }} </div>
             </div>
         </div>
@@ -63,7 +67,11 @@
                                 <li class="navigation__item"><a href="{{ .Site.BaseURL }}/#blog" title="link to {{ .Site.Title }} blog" class="blog-button">Blog</a> </li>
                                 </br> {{ if .Site.Params.cv }}
                                 <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my CV " class="blog-button">CV</a> </li>
-                                </br> {{ end }} </ul>
+                                </br> {{ end }} 
+                                {{ if .Site.Params.bikelog }}
+                                <li class="navigation__item"><a href="{{ .Site.Params.bikelog  }}" title="link to my bike log " class="blog-button">bike log</a> </li>
+                                </br> {{ end }} 
+                            </ul>
                         </nav> {{ partial "social.html" . }} </div>
                 </div>
             </div>
