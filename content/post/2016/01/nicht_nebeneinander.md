@@ -1,8 +1,8 @@
 +++
-Categories = ["Rad", "Rage"]
+Categories = ["Rad"]
 title = "NICHT NEBENEINANDER!"
 Tags = ["Rad", "Rage", "Fußgänger"]
-date = "2016-01-22T20:39:30+01:00"
+date = "2016-01-22"
 menu = "main"
 
 +++

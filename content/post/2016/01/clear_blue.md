@@ -1,5 +1,5 @@
 +++
-Categories = ["Elektronik", "Bausteln"]
+Categories = ["Elektronik"]
 title = "schwanger / nicht schwanger"
 Tags = ["Elektronik", "Bausteln"]
 date = "2016-01-21T23:39:30+01:00"
@@ -33,4 +33,4 @@ Ein klassisches Beispiel von Techniknippes, teuer, verschwenderischer Umgang mit
 
 Wie auch immer, ich denke der Test kommt eh nicht so gut bei der Zielgruppe an. Wer nicht in der Lage ist einen von zwei Balken auf dem Streifen zu unterscheiden, kann vermutlich auch nichts mit den Worten schwanger / nicht schwanger anfangen. Vielleicht wären dickbäuchige Piktogramme besser geeignet.
 
-¯\_(ツ)_/¯
+¯\\\_\(ツ\)\_/¯
