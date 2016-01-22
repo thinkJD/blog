@@ -20,8 +20,8 @@ Der Test ist so gebaut, dass man die Knopfzelle zur Stromversorgung leicht mit e
 #### Was hatte ich erwartet?
 Irgendeinen Sensor, der billig Hormone misst und ein kleiner uC zum auswerten. Dazu ein billiges LCD mit ein paar Symbolen.
 
-{{< figure src="/media/img/cb1.JPG" title="Steve Francia" >}}
-{{< figure src="/media/img/cb2.JPG" title="Steve Francia" >}}
+{{< figure src="/media/img/cb1.JPG">}}
+{{< figure src="/media/img/cb2.JPG">}}
 
 #### Was habe ich gefunden
 Einen normalen Teststreifen, wie sie auch in jedem anderen Test von ClearBlue benutzt werden und ein wenig Elektronik, um diesen Streifen optisch abzulesen. 
