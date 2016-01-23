@@ -6,12 +6,14 @@ menu = "main"
 
 +++
 
-<!---
-   see https://github.com/sachinchoolur/lightGallery for details
---->
+<!-- https://github.com/NUKnightLab/TimelineJS3 !-->
+<div id='timeline-embed' style="width: 100%; height: 600px"></div>
 
-<iframe src='//cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1g5kbx3WmBdt489kZKBl08L1zNbZTFqvuaPUiSoT6wAg&font=Default&lang=en&initial_zoom=2&height=700' width='100%' height='700' frameborder='0'></iframe>
+<script type="text/javascript">
+  timeline = new TL.Timeline('timeline-embed', 'https://docs.google.com/spreadsheets/d/1g5kbx3WmBdt489kZKBl08L1zNbZTFqvuaPUiSoT6wAg/edit?usp=sharing');
+</script>
 
+<!-- https://github.com/sachinchoolur/lightGallery !-->
 <div id="aniimated-thumbnials">
   <a href="../media/img/bike_gallery/2015-04-17_1429265858.jpg">
     <img src="../media/img/bike_gallery/2015-04-17_1429265858_small.jpg" />
@@ -32,7 +34,6 @@ menu = "main"
     <img src="../media/img/bike_gallery/2016-01-16_1452952163_small.jpg" />
   </a>
 </div>
-
 <script src=../../js/lightGallery.min.js></script>
 <script>
 $('#aniimated-thumbnials').lightGallery({
