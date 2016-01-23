@@ -10,6 +10,7 @@ menu = "main"
    see https://github.com/sachinchoolur/lightGallery for details
 --->
 
+<iframe src='//cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1g5kbx3WmBdt489kZKBl08L1zNbZTFqvuaPUiSoT6wAg&font=Default&lang=en&initial_zoom=2&height=700' width='100%' height='700' frameborder='0'></iframe>
 
 <div id="aniimated-thumbnials">
   <a href="../media/img/bike_gallery/2015-04-17_1429265858.jpg">
