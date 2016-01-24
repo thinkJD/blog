@@ -6,12 +6,8 @@ menu = "main"
 
 +++
 
-<!-- https://github.com/NUKnightLab/TimelineJS3 !-->
-<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+{{< timeline "https://docs.google.com/spreadsheets/d/1g5kbx3WmBdt489kZKBl08L1zNbZTFqvuaPUiSoT6wAg/edit?usp=sharing" >}}
 
-<script type="text/javascript">
-  timeline = new TL.Timeline('timeline-embed', 'https://docs.google.com/spreadsheets/d/1g5kbx3WmBdt489kZKBl08L1zNbZTFqvuaPUiSoT6wAg/edit?usp=sharing');
-</script>
 
 <!-- https://github.com/sachinchoolur/lightGallery !-->
 <div id="aniimated-thumbnials">
