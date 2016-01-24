@@ -17,6 +17,6 @@ Die Dame, die mich beinahe beim rechts abbiegen (ich wollte gerade aus) umfuhr, 
 
 **Ich:** "Ja, so was passiert. Aber interessant, wie sie versuchen mir die Schuld für ihren Fehler unterzuschieben."
 
-Dann war das Gespräch auch schon zu Ende. Sie fuhr irgendwas schreiend und wild mit den Armen aus dem Fenster fuchtelnd (ja, es sah so witzig aus wie man es sich gerade vorstellt) weiter. Ich habe nur noch irgendwas von Asoziale Radfahrer verstanden. 
+Dann war das Gespräch auch schon zu Ende. Sie fuhr irgendwas schreiend und wild mit den Armen aus dem Fenster fuchtelnd (ja, es sah so witzig aus wie man es sich gerade vorstellt) weiter. Ich habe nur noch irgendwas von asoziale Radfahrer verstanden. 
 
 Ach Ludwigshafen ¯\\\_\(ツ\)\_/¯

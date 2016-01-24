@@ -7,8 +7,7 @@ menu = "main"
 
 +++
 
-
-Mir ist letztens ein Schwangerschaftstest der Marke Clear Blue Digital in die Hände gefallen. Er hat nicht, wie man das sonst so kennt einen einfach abzulesenden Teststreifen sondern ein Display, das Schwanger / nicht Schwanger anzeigt. Genau so Digital wie ein Teststreifen, aber wir wollen uns nicht mit Begrifflichkeiten aufhalten. 
+Mir ist letztens ein Schwangerschaftstest der Marke Clear Blue Digital in die Hände gefallen. Er hat nicht, wie man das sonst so kennt einen einfach abzulesenden Teststreifen sondern ein Display, das Schwanger / nicht Schwanger anzeigt. Genau so digital wie ein Teststreifen, aber wir wollen uns nicht mit Begrifflichkeiten aufhalten. 
 
 Als technisch interessierter Mensch, musste ich das Teil natürlich sofort zerlegen und nachschauen, wie so ein digitaler Schwangerschaftstest funktioniert.
 
@@ -18,7 +17,7 @@ Um es vorwegzunehmen, ich war sehr überrascht!
 Der Test ist so gebaut, dass man die Knopfzelle zur Stromversorgung leicht mit einem "spitzen Gegenstand" herausbrechen kann, um sie fachgerecht zu entsorgen (alsob). An dieser Stelle kann man ansetzen, hebeln, drücken und mit sanftem krachen springt das Gerät entzwei und man kann das Innenleben erkennen. Dummerweise habe ich Profi kein Bild von dem kompletten Gerät gemacht, aber ich traue euch zu das zu googeln. 
 
 #### Was hatte ich erwartet?
-Irgendeinen Sensor, der billig Hormone misst und ein kleiner uC zum auswerten. Dazu ein billiges LCD mit ein paar Symbolen.
+Irgendein Sensor, der billig Hormone misst und ein kleiner uC zum auswerten. Dazu ein billiges LCD mit ein paar Symbolen.
 
 {{< figure src="/media/img/cb1.JPG">}}
 {{< figure src="/media/img/cb2.JPG">}}
@@ -27,7 +26,7 @@ Irgendeinen Sensor, der billig Hormone misst und ein kleiner uC zum auswerten. D
 Einen normalen Teststreifen, wie sie auch in jedem anderen Test von ClearBlue benutzt werden und ein wenig Elektronik, um diesen Streifen optisch abzulesen. 
 
 Zu sehen sind drei IR Dioden und zwei Fototransistoren. Darüber befand sich ein Plastikgehäuse, um den Streifen am Platz zu halten. Der Streifen ist in einem Schwamm eingebettet, welcher zu zwei Kontakten geführt wird. Diese sind hochohmig am Reset Pin angeschlossen und starten den Controller, sobald der Schwamm (durch blaue Ersatzflüssigkeit) leitfähig wird. </br> 
-Im Anschluss wartet der Controller ein wenig ab und beleuchtet dann den Teststreifen mit zwei IR Reflexlichtschranken. Eine für den Kontrollbalken, die andere für den Testbalken. Sind beide Da: Glückwunsch, das LCD zeigt schwanger an. Ist nur einer da, zeigt es nicht schwanger an. Sollte kein Streifen da sein, zeigt das Gerät ein Bedienungsableitungssymbol. 
+Im Anschluss wartet der Controller ein wenig ab und beleuchtet dann den Teststreifen mit drei IR-Dioden, der Teststreifen reflektiert das Licht auf die beiden Fototransistoren. Einen für den Kontrollbalken, der andere für den Testbalken. Sind beide da: Glückwunsch, das LCD zeigt schwanger an. Ist nur einer da, zeigt es nicht schwanger an. Sollte kein Streifen da sein, zeigt das Gerät ein Bedienungsanleitungssymbol. 
 
 Ein klassisches Beispiel von Techniknippes, teuer, verschwenderischer Umgang mit Rohstoffen und nach einmal nutzen fliegt es in die Tonne. Man hätte wenigstens den Teststreifen auswechselbar machen können... 
 

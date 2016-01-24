@@ -6,5 +6,5 @@ tags        = [ "Me", "Info" ]
 
 +++
 
-Mein Blog geht in Runde 2. Hier werded ihr in Zukunft immer mal wieder etwas finden, was mich interessiert und nicht in 140 Zeichen passt. Hauptsächlich wird es um die Themen Fahrrad, Roboter und Elektronik gehen.
+Mein Blog geht in Runde 2. Hier werdet ihr in Zukunft immer mal wieder etwas finden, das mich interessiert und nicht in 140 Zeichen passt. Hauptsächlich wird es um die Themen Fahrrad, Roboter und Elektronik gehen.
 
