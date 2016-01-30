@@ -4,7 +4,6 @@ Description = ""
 Tags = ["Zubehör", "Werkzeug", "Tipps"]
 Title = "Die Werkzeugtaschen Lösung"
 date = "2016-01-26"
-menu = "main"
 
 +++
 

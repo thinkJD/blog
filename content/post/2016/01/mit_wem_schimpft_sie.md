@@ -3,7 +3,6 @@ Categories = ["Rad"]
 title = "Mit wem schimpft Sie?"
 Tags = ["Rad", "Rage", "Auto"]
 date = "2016-01-05"
-menu = "main"
 
 +++
 

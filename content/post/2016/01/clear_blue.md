@@ -3,7 +3,6 @@ Categories = ["Elektronik"]
 title = "schwanger / nicht schwanger"
 Tags = ["Elektronik", "Bausteln"]
 date = "2016-01-21T23:39:30+01:00"
-menu = "main"
 
 +++
 

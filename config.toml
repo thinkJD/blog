@@ -9,6 +9,12 @@ author = "thinkJD"
 theme = "hugo-uno"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
+[[menu.main]]
+    name = "blog"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/getting-started/"
+
 [indexes]
    category = "categories"
    tag = "tags"
@@ -18,9 +24,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   twitter = "thinkJD"
   email = "thinkjd@thinkjd.de"
   strava_id = "8772305"
-  description = "Der tägliche Kampf mit dem Verkehr und was mich sonst noch interessiert"
+  description = "Der tägliche Kampf mit dem Verkehr und was mich sonst so interessiert"
   bikelog = "/bikelog"
-  #cv = "/bikelog"
   disqus = "thinkjdsblog20"
   logo = "/media/img/megavolt.png"
   cover = "/media/img/alfine.png"

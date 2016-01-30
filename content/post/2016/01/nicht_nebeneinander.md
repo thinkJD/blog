@@ -3,7 +3,6 @@ Categories = ["Rad"]
 title = "NICHT NEBENEINANDER!"
 Tags = ["Rad", "Rage", "Fußgänger"]
 date = "2016-01-22"
-menu = "main"
 
 +++
 

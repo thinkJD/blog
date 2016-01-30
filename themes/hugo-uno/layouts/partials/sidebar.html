@@ -26,13 +26,34 @@
                 <div class="navigation-wrapper">
                     <nav class="cover-navigation cover-navigation--primary">
                         <ul class="navigation">
-                            <li class="navigation__item"><a href="{{ .Site.BaseURL }}#blog" title="link to {{ .Site.Title }} blog" class="blog-button">Blog</a> </li>
-                            </br> {{ if .Site.Params.cv }}
-                            <li class="navigation__item"><a href="{{ .Site.Params.cv  }}" title="link to my CV " class="blog-button">CV</a> </li>
-                            </br> {{ end }}
-                            {{ if .Site.Params.bikelog }}
-                            <li class="navigation__item"><a href="{{ .Site.Params.bikelog  }}" title="link to my bike log " class="blog-button">bike log</a> </li>
-                            </br> {{ end }} 
+                         
+
+                             <ul class="sidebar-menu">
+                              {{ $currentNode := . }}
+                              {{ range .Site.Menus.main }}
+                              {{ if .HasChildren }}
+
+                                <li class="sub-menu{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
+                                <a href="javascript:;" class="">
+                                    {{ .Pre }}
+                                    <span>{{ .Name }}</span>
+                                    <span class="menu-arrow arrow_carrot-right"></span>
+                                </a>
+                                <ul class="sub">
+                                    {{ range .Children }}
+                                    <li{{if $currentNode.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+                                    {{ end }}
+                                </ul>
+                              {{else}}
+                                <li class="navigation__item">
+                                <a class="blog-button" href="{{.URL}}">
+                                    {{ .Pre }}
+                                    <span>{{ .Name }}</span>
+                                </a>
+                              {{end}}
+                              </li>
+                              {{end}}
+                           </ul>
                         </ul>
                     </nav> {{ partial "social.html" . }} </div>
             </div>
