@@ -13,8 +13,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
     name = "blog"
     pre = "<i class='fa fa-road'></i>"
     weight = -100
-    url = "#blog"
-    
+    url = "http://thinkjd.de/#blog"
+
 [indexes]
    category = "categories"
    tag = "tags"
