@@ -26,13 +26,11 @@
                 <div class="navigation-wrapper">
                     <nav class="cover-navigation cover-navigation--primary">
                         <ul class="navigation">
-                         
-
                              <ul class="sidebar-menu">
                               {{ $currentNode := . }}
                               {{ range .Site.Menus.main }}
                               {{ if .HasChildren }}
-
+                              
                                 <li class="sub-menu{{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
                                 <a href="javascript:;" class="">
                                     {{ .Pre }}
