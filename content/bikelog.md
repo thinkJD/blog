@@ -58,5 +58,7 @@ $('#aniimated-thumbnials').lightGallery({
 | 4800      | 06.01.2016 | Ortlieb Tasche montiert, love it                         |
 | 4900      | 08.01.2016 | Mantel hinten geplatzt (Schwalbe CX Comp)                |
 | 5010      | 16.01.2016 | Steuersatz hat spiel -> neu eingestellt                  |
+| 5500      | xx.02.2016 | Bremsbeläge hinten gewechselt                            |
+| 5700      | 29.02.2016 | Bremsbeläge und Bremsscheibe vorne gewechselt (nächstes Mal den Kolben ganz zurück drücken) |
 
 
